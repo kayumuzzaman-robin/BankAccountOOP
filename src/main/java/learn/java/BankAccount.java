@@ -3,11 +3,11 @@ package learn.java;
 import java.math.BigDecimal;
 
 public class BankAccount {
-    int accountNumber;
-    BigDecimal balance;
-    String customerName;
-    String email;
-    String phoneNumber;
+    private int accountNumber;
+    private BigDecimal balance;
+    private String customerName;
+    private String email;
+    private String phoneNumber;
 
     public BankAccount() {
         this(0, 0.0, "Default Name", "Default Mail", "Default Number");
